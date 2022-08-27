@@ -1,24 +1,33 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import BusinessOpt from './Components/BusinessOpt';
+import Calender from './Components/Calender';
+import MeetTheTeam from './Components/MeetTheTeam';
+import ScaleYourBusiness from './Components/ScaleYourBusiness';
+import TopBaner from './Components/TopBaner';
+import WhatDoWeOffer from './Components/WhatDoWeOffer';
+import WhatOther from './Components/WhatOther';
+import WhyAdverlo from './Components/WhyAdverlo';
 
 function App() {
+  const pinLen = 3000;
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <TopBaner/>
+        <WhyAdverlo/>
+        <BusinessOpt/>
+        <WhatDoWeOffer/>
+        <WhatOther/>
+        <ScaleYourBusiness pinFor={3000} />
+        <div className={`h-[3000px]`} ></div>
+        <MeetTheTeam/>
+        <Calender />
+
+
+        {/* <div className='h-screen sm:mt-10 bg-indigo-200' >
+          <p>hi dskljdslkdf lks slkdfjlskdjf lsdkfl sdjfl sdfjls </p>
+        </div> */}
+      
     </div>
   );
 }
