@@ -5,7 +5,7 @@ const Calender = () => {
     return (
         <div className='sm:h-screen ' >
             <div className=' h-full flex justify-center items-center' >
-                <div className=' sm:w-[1000px] h-[90%] rounded-lg shadow-xl flex sm:flex-row flex-col justify-center items-center ' >
+                <div className=' sm:w-[1000px] p-5 rounded-lg shadow-xl flex sm:flex-row flex-col justify-center items-center ' >
 
                     <div className=' sm:w-5/12 flex flex-col justify-center items-center p-3 pr-5' >
                         <img className='mb-2' src={helpLine} alt="helpLine" />

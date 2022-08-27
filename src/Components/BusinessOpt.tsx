@@ -16,7 +16,7 @@ const BusinessOpt = () => {
         {/*Body ----------------------- */}
         <div className='h-full sm:flex max-w-[90%] sm:max-w-[1000px] mx-auto ' >
 
-            <div className=' w-full relative  ' >
+            <div className=' w-full relative flex flex-col justify-center items-center ' >
 
                 <div className='pt-20 sm:pt-2 mt-10' >
                     <p className='text-3xl font-bold' >Ads For Businesses</p>
@@ -52,12 +52,13 @@ const BusinessOpt = () => {
                 </div>
 
                
-                <div className='sm:block hidden w-16 absolute left-[-60px] top-[200px] ' >
+                <div className='sm:block hidden w-16 absolute left-[-60px] top-[50%] ' >
                     <div id='triangle-l' className='move-xy' ></div>
                 </div>
-                <div className='sm:block hidden w-16 absolute left-[90%] top-[100px] ' >
+                <div className='sm:block hidden w-16 absolute left-[90%] top-[40%] ' >
                     <div id='triangle-r' className='move-xy' ></div>
                 </div>
+
             </div>
 
         </div>

@@ -18,10 +18,10 @@ const WhatDoWeOffer = () => {
             duration: 1,
             scrollTrigger:{
                 trigger:"#add-img",
-                // markers: true,
                 start: 'bottom 85%',
-                end:'top 10%',
+                end:'top 15%',
                 toggleActions: "restart reverse restart reverse "
+                // markers: true,
             }
         })
        
@@ -34,7 +34,7 @@ const WhatDoWeOffer = () => {
         <div className='h-[calc(100vh)] ' >
      
         {/*Body ----------------------- */}
-        <div className='h-full sm:flex max-w-[90%] sm:max-w-[1000px] mx-auto ' >
+        <div className='h-full sm:flex justify-center items-center max-w-[90%] sm:max-w-[1000px] mx-auto ' >
 
             <div className=' w-full relative  ' >
 

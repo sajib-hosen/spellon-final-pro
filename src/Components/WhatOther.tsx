@@ -41,8 +41,8 @@ const WhatOther = () => {
                         </div>
 
 
-                        <div className=' w-full relative sm:h-full sm:w-[50%] flex justify-center items-center flex-col ' >
-                            <div className=' h-[165px] sm:h-[587px] w-full ' >
+                        <div className=' w-full  sm:h-full sm:w-[50%] flex justify-center items-center flex-col ' >
+                            <div className='relative h-[165px] sm:h-[500px] w-full ' >
                                 <div className=' absolute z-20 bottom-[5px] sm:bottom-[10%] right-[25%] sm:right-[calc(14%)]' >
                                     <img className='move-y1 w-[80px] sm:w-[170px]' src={girlWo} alt="boys" />
                                 </div>
@@ -80,10 +80,10 @@ const WhatOther = () => {
 
 
               
-                <div className='sm:block hidden w-16 absolute left-[0%] top-[200px] ' >
+                <div className='sm:block hidden w-16 absolute left-[-15%] top-[50%] ' >
                     <div id='triangle-l' className='move-xy' ></div>
                 </div>
-                <div className='sm:block hidden w-16 absolute left-[90%] top-[100px]  ' >
+                <div className='sm:block hidden w-16 absolute left-[100%] top-[40%]  ' >
                     <div id='triangle-b2' className='move-xy' ></div>
                 </div>
             </div>

@@ -19,8 +19,8 @@ function App() {
         <BusinessOpt/>
         <WhatDoWeOffer/>
         <WhatOther/>
-        <ScaleYourBusiness pinFor={3000} />
-        <div className={`h-[3000px]`} ></div>
+        <ScaleYourBusiness pinFor={2000} />
+        <div className={`h-[2000px]`} ></div>
         <MeetTheTeam/>
         <Calender />
         <Footer/>

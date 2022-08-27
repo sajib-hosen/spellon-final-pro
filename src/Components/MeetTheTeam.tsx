@@ -5,7 +5,7 @@ import yoji from './imgs/yoji.png'
 
 const MeetTheTeam = () => {
     return (
-        <div className='h-[calc(100vh)] overflow-hidden sm:mt-2 bg-gradient-to-b from-[#2D032A] to-[#003634] text-white' >
+        <div className='h-[calc(100vh)] sm:mt-10 overflow-hidden bg-gradient-to-b from-[#2D032A] to-[#003634] text-white' >
      
         {/*Body ----------------------- */}
         <div className='h-full sm:flex max-w-[100%] sm:max-w-[1000px] mx-auto ' >
@@ -39,10 +39,10 @@ const MeetTheTeam = () => {
                         </div>
                     </div>
               
-                <div className='sm:block hidden w-16 absolute left-[-25%] top-[10%] ' >
+                <div className='sm:block hidden w-16 absolute left-[-30%] top-[30%] ' >
                     <div id='triangle-l2' className='move-xy' ></div>
                 </div>
-                <div className='sm:block hidden w-16 absolute left-[100%] top-[40%] ' >
+                <div className='sm:block hidden w-16 absolute left-[120%] top-[40%] ' >
                     <div id='triangle-b' className='move-xy' ></div>
                 </div>
             </div>

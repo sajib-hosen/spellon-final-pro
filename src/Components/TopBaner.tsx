@@ -5,7 +5,7 @@ import sms from './imgs/sms.png'
 import setting from './imgs/setting.png'
 import chart from './imgs/chart.png'
 import logo from './imgs/Adverlo-C1.png'
-import vector from './imgs/Vector-sv.png'
+import Ellipse from './imgs/Ellipse.png'
 import Intersect from './imgs/Intersect.png'
 
 
@@ -35,13 +35,14 @@ const TopBaner = () => {
             </nav>
             
             {/* Banner Body ----------------------- */}
-            <div className=' sm:flex max-w-[90%] sm:max-w-[1000px] mx-auto h-[calc(100%-00px)] sm:h-[calc(100%-100px)]' >
+            <div className=' flex sm:flex-row flex-col justify-center items-center max-w-[90%] sm:max-w-[1000px] mx-auto  sm:h-[calc(100%-100px)]' >
 
-                <div className='  sm:w-[45%] sm:p-2 flex flex-col justify-center sm:items-start '>
+                <div className=' h-1/2 sm:w-[50%] sm:mt-0 sm:p-2 flex flex-col justify-center sm:items-start '>
                     
-                    <div className='flex flex-col sm:justify-start sm:text-start' >
-                        <h2 className='text-3xl sm:text-5xl' >We Convert Clicks</h2>
+                    <div className='flex flex-col sm:justify-start sm:text-start relative' >
+                        <h2 className='text-3xl sm:text-5xl sm:mt-0' >We Convert Clicks</h2>
                         <h2 className='text-3xl sm:text-5xl' >Into Customers</h2>
+                        <img className='sm:w-[170px] w-[100px] absolute bottom-[30%] left-[62%]' src={Ellipse} alt="Ellipse" />
                     </div>
                     <div>
                         <p className='mt-3 text-center' >Ads cost money. Good ads make money.</p>
@@ -55,8 +56,8 @@ const TopBaner = () => {
                     </div>
                 </div>
 
-                <div className='relative h-1/2 sm:h-full sm:w-[55%] flex justify-center items-center flex-col ' >
-                    <div className=' h-[687px] w-full ' >
+                <div className='relative h-1/2 sm:h-[500px] sm:w-[50%] w-full flex justify-center flex-col items-center ' >
+                    <div className=' w-full h-[250px] sm:h-[500px] ' >
                         <div className=' absolute z-10 bottom-[0] sm:bottom-[5%] left-0 sm:right-[calc(50%-5%)]' >
                             <img className='move-x1 w-[98px] sm:w-[165px]' src={tobBanerMan} alt="boys" />
                         </div>

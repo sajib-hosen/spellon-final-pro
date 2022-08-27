@@ -7,13 +7,13 @@ import smWd from './imgs/secSmWd.png'
 
 const WhyAdverlo = () => {
     return (
-        <div className='h-[calc(100vh)] mt-20' >
+        <div className='h-[calc(100vh)] sm:mt-20 ' >
             
       
-            <div className='flex flex-col-reverse sm:flex-row  max-w-[90%] sm:max-w-[1000px] mx-auto h-[calc(100%-00px)] sm:h-[calc(100%-100px)]' >
+            <div className='flex justify-center flex-col-reverse sm:flex-row max-w-[90%] sm:max-w-[1000px] mx-auto  sm:h-[calc(100%-100px)]' >
 
-                <div className='relative h-1/2 sm:h-full sm:w-[55%] flex justify-center items-center flex-col ' >
-                    <div className=' h-[687px] w-full ' >
+                <div className=' sm:w-[55%] h-[350px] sm:h-[500px] w-full flex justify-center items-center flex-col ' >
+                    <div className='relative h-1/2 sm:h-[500px] w-full ' >
                         <div className=' absolute z-10 bottom-[0] sm:bottom-[25%] left-10 sm:right-[calc(50%-25%)]' >
                             <img className='move-y1 w-[250px] sm:w-[565px]' src={secBg} alt="boys" />
                         </div>
@@ -35,7 +35,7 @@ const WhyAdverlo = () => {
 
                 <div className='  sm:w-[45%] sm:p-2 flex flex-col justify-center sm:items-start '>
                     
-                    <div className='flex flex-col sm:justify-start sm:text-start' >
+                    <div className='flex flex-col sm:mt-10 sm:justify-start sm:text-start' >
                         <h2 className='text-3xl mb-4 sm:text-5xl' >Why Adverlo?</h2>
                     </div>
                     <div>

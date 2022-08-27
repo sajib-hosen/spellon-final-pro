@@ -101,8 +101,8 @@ body{
   height: 200px;
   background: #0036341c linear-gradient(#870b4fbd, rgba(6, 11, 61, 0));
   clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
-  -ms-transform: rotate(170deg); /* IE 9 */
-  transform: rotate(-170deg);
+  -ms-transform: rotate(-140deg); /* IE 9 */
+  transform: rotate(-140deg);
 }
 #triangle-b2 {
   width: 100px;
@@ -120,12 +120,6 @@ body{
 }
 
 
-/* water wave */
-/* .wave-cont{
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-} */
 
 .wave {
   position: absolute;
