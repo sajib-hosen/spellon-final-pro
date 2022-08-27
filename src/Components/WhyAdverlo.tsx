@@ -10,7 +10,7 @@ const WhyAdverlo = () => {
         <div className='h-[calc(100vh)] sm:mt-20 ' >
             
       
-            <div className='flex justify-center flex-col-reverse sm:flex-row max-w-[90%] sm:max-w-[1000px] mx-auto  sm:h-[calc(100%-100px)]' >
+            <div className='flex justify-center items-center flex-col-reverse sm:flex-row max-w-[90%] sm:max-w-[1000px] mx-auto  sm:h-[calc(100%-100px)]' >
 
                 <div className=' sm:w-[55%] h-[350px] sm:h-[500px] w-full flex justify-center items-center flex-col ' >
                     <div className='relative h-1/2 sm:h-[500px] w-full ' >
