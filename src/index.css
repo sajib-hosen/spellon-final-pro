@@ -55,15 +55,6 @@
   100%  {left:0px; top:0px;}
 }
 
-.wave-x{
-  position: absolute;
-  width: 100%;
-  left: 0px;
-
-  /* animation-name: eave-ani;
-  animation-duration: 4s;
-  animation-iteration-count: infinite; */
-}
 
 @keyframes eave-ani {
   0%   {left:-100px; bottom:-15px;}
@@ -86,6 +77,15 @@ body{
   transform: rotate(60deg);
 }
 
+#triangle-l2 {
+  width: 100px;
+  height: 200px;
+  background: #40247700 linear-gradient(rgb(64, 36, 119), rgba(6, 11, 61, 0));
+  clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
+  -ms-transform: rotate(80deg); /* IE 9 */
+  transform: rotate(40deg);
+}
+
 #triangle-r {
   width: 100px;
   height: 200px;
@@ -94,3 +94,33 @@ body{
   -ms-transform: rotate(-60deg); /* IE 9 */
   transform: rotate(-60deg);
 }
+
+
+#triangle-b {
+  width: 100px;
+  height: 200px;
+  background: #0036341c linear-gradient(#870b4fbd, rgba(6, 11, 61, 0));
+  clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
+  -ms-transform: rotate(170deg); /* IE 9 */
+  transform: rotate(-170deg);
+}
+#triangle-b2 {
+  width: 100px;
+  height: 200px;
+  background: #0036341c linear-gradient(#870b4fbd, rgba(6, 11, 61, 0));
+  clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
+  -ms-transform: rotate(-140deg); /* IE 9 */
+  transform: rotate(-140deg);
+}
+
+
+
+
+
+
+.footer-red{
+  border-top-right-radius: 50% 50px;
+  border-top-left-radius: 50% 50px;
+}
+
+

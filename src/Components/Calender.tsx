@@ -4,7 +4,7 @@ import helpLine from './imgs/helpLine.png';
 const Calender = () => {
     return (
         <div className='sm:h-screen ' >
-            <div className='border h-full flex justify-center items-center' >
+            <div className=' h-full flex justify-center items-center' >
                 <div className=' sm:w-[1000px] h-[90%] rounded-lg shadow-xl flex sm:flex-row flex-col justify-center items-center ' >
 
                     <div className=' sm:w-5/12 flex flex-col justify-center items-center p-3 pr-5' >
@@ -16,7 +16,6 @@ const Calender = () => {
                         <p className='sm:text-left mb-3' >Find a time on the calendar that works for you, so you’ll be able to start your adventure with Adverlo.</p>
                     </div>
 
-                    {/* Calendar  */}
                     <div className='mb-2 border-indigo-600 sm:w-5/12 shadow-xl rounded-lg p-2'>
                         <p className='border-b font-semibold p-3' >SELECT A DAY</p>
                             <div className='flex justify-around items-center p-3' >

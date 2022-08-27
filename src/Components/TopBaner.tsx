@@ -27,9 +27,10 @@ const TopBaner = () => {
                     <img className='' width="180px" src={logo} alt="logo" />
                 </div>
                 <div className='flex justify-center items-center ' >
-                    <button className='mr-5' >Why Adverlo?</button>
-                    <button className='mr-5' >Services</button>
+                    <button className='mr-5 hidden sm:block' >Why Adverlo?</button>
+                    <button className='mr-5 hidden sm:block' >Services</button>
                     <button className=' bg-[#F13A9E] p-3 hidden sm:block px-4 rounded-full ' >Speak to our team</button>
+                    <button className='text-2xl sm:hidden block ' >&equiv;</button>
                 </div>
             </nav>
             

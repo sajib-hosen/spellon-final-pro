@@ -19,7 +19,7 @@ const WhatDoWeOffer = () => {
             scrollTrigger:{
                 trigger:"#add-img",
                 // markers: true,
-                start: 'bottom 60%',
+                start: 'bottom 85%',
                 end:'top 10%',
                 toggleActions: "restart reverse restart reverse "
             }

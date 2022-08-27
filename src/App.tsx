@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import BusinessOpt from './Components/BusinessOpt';
 import Calender from './Components/Calender';
+import Footer from './Components/Footer';
 import MeetTheTeam from './Components/MeetTheTeam';
 import ScaleYourBusiness from './Components/ScaleYourBusiness';
 import TopBaner from './Components/TopBaner';
@@ -22,12 +23,7 @@ function App() {
         <div className={`h-[3000px]`} ></div>
         <MeetTheTeam/>
         <Calender />
-
-
-        {/* <div className='h-screen sm:mt-10 bg-indigo-200' >
-          <p>hi dskljdslkdf lks slkdfjlskdjf lsdkfl sdjfl sdfjls </p>
-        </div> */}
-      
+        <Footer/>
     </div>
   );
 }

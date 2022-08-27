@@ -11,7 +11,7 @@ import healthcare from './imgs/healthcare.png';
 
 const BusinessOpt = () => {
     return (
-        <div className='h-[calc(100vh)] bg-gradient-to-b from-[#43003F] to-[#003634] text-white' >
+        <div className='h-[calc(100vh)] overflow-hidden bg-gradient-to-b from-[#43003F] to-[#003634] text-white' >
      
         {/*Body ----------------------- */}
         <div className='h-full sm:flex max-w-[90%] sm:max-w-[1000px] mx-auto ' >
@@ -55,7 +55,7 @@ const BusinessOpt = () => {
                 <div className='sm:block hidden w-16 absolute left-[-60px] top-[200px] ' >
                     <div id='triangle-l' className='move-xy' ></div>
                 </div>
-                <div className='sm:block hidden w-16 absolute right-[0px] top-[100px] ' >
+                <div className='sm:block hidden w-16 absolute left-[90%] top-[100px] ' >
                     <div id='triangle-r' className='move-xy' ></div>
                 </div>
             </div>
