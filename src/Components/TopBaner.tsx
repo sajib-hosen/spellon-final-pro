@@ -19,7 +19,7 @@ const TopBaner = () => {
 
 
     return (
-        <div className='h-[calc(100vh)] bg-gradient-to-b from-[#43003F] to-[#003634] text-white' >
+        <div className='h-[calc(100vh)] relative overflow-hidden bg-gradient-to-b from-[#43003F] to-[#003634] text-white' >
 
             {/* Navigation section----------------- */}
             <nav className='max-w-[90%] sm:max-w-[1000px] mx-auto p-3 flex justify-between items-center ' >
@@ -76,10 +76,16 @@ const TopBaner = () => {
                 </div>
 
             </div>
-            <div className='' >
+            {/* <div className='' >
                 <img className=' absolute bottom-0 sm:bottom-[00px] z-20 ' src={vector} alt="wave" />
                 <img className=' absolute bottom-0 sm:bottom-[00px] z-20' src={Intersect} alt="wave" />
-            </div>
+            </div> */}
+            <section className='wave-cont' >
+                <div className='wave wave1'></div>
+                <div className='wave wave2'></div>
+                <div className='wave wave3'></div>
+                <div className='wave wave4'></div>
+            </section>
         </div>
     );
 };
